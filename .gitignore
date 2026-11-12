@@ -1,0 +1,15 @@
+# audio data and derived features are not published
+wav2vec2-experiments/data/
+*.wav
+*.npy
+*.mp3
+*.flac
+# trained models and logs
+*_depression_model/
+tensorboard_logs/
+results/
+*.pt
+*.safetensors
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
